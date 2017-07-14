@@ -1,0 +1,372 @@
+
+
+.article_head1 {
+  font-family: Poppins;
+  font-size: 50px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: left;
+  color: $home_head;
+}
+
+.article_head1_mob {
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.06;
+  text-align: left;
+  color: $home_head;
+}
+
+.article_button {
+  font-family: Open Sans;
+  font-size: 33.2px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.5;
+  text-align: left;
+  color: $home_head;
+}
+
+.banner_big {
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  text-align: left;
+  color: $banner_big;
+}
+
+.banner_big_mob {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  text-align: left;
+  color: #010000;
+}
+
+.home_hot_title {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.17;
+  text-align: left;
+  color: $home_head;
+}
+
+.home_latest_news_mob {
+  font-family: Poppins;
+  font-size: 22.2px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.37;
+  text-align: left;
+  color: $home_head;
+}
+
+.banner_second {
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  text-align: left;
+  color: #010000;
+}
+
+.banner_second_mob {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  text-align: left;
+  color: $home_head;
+}
+
+.home_head_mob {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: left;
+  color: $home_head;
+}
+
+.home_hot_title_mob {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.4;
+  text-align: left;
+  color: $home_head;
+}
+
+.footer_head {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: left;
+  color: $footer_nav;
+}
+
+.home_head {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: left;
+  color: $home_head;
+}
+
+.home_popular_text_mob {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: left;
+  color: $home_head;
+}
+
+.main_nav {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.39;
+  letter-spacing: 0.5px;
+  color: $main_nav;
+}
+
+.home_fratured_category_big_head {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.11;
+  text-align: left;
+  color: $home_head;
+}
+
+.home_latest_news {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.37;
+  text-align: left;
+  color: $home_head;
+}
+
+.home_popular_text {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: left;
+  color: $home_head;
+}
+
+.footer_main_text {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: left;
+  color: $footer_main_text;
+}
+
+.footer_widget_popular {
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.93;
+  text-align: left;
+  color: $footer_widget_main;
+}
+
+.footer_widget_main {
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  text-align: left;
+  color: $footer_widget_main;
+}
+
+.article_meta {
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: left;
+  color: $article_meta;
+}
+
+.article_text {
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.73;
+  text-align: left;
+  color: $article_text;
+}
+
+.article_meta_mob {
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: left;
+  color: $article_meta;
+}
+
+.footer_widget_popular_meta {
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: left;
+  color: $footer_nav;
+}
+
+.footer_widget_meta {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: left;
+  color: $footer_nav;
+}
+
+.home_hot_text {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.43;
+  text-align: left;
+  color: $home_hot_text;
+}
+
+.footer_nav {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: left;
+  color: $footer_nav;
+}
+
+.home_hot_read_more {
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.46;
+  text-align: left;
+  color: $home_head;
+}
+
+.home_fratured_text {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  text-align: left;
+  color: $home_head;
+}
+
+.home_fratured_category_big_text {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  text-align: left;
+  color: $banner_meta;
+}
+
+.banner_big_meta {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: left;
+  color: $banner_meta;
+}
+
+.home_fratured_category {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.83;
+  text-align: left;
+  color: $banner_meta;
+}
+
+.second_nav {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.08;
+  text-align: right;
+  color: $second_nav;
+}
+
+.home_popular_category {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: left;
+  color: $banner_meta;
+}

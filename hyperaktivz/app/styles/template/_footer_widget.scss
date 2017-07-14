@@ -1,0 +1,26 @@
+.footer_widget {
+  @media (min-width: $screen-sm-min) {
+    // (S) 768
+  }
+  .widget {
+    .widget-title {
+      text-align: center;
+      @media (min-width: $screen-sm-min) {
+        // (S) 768
+        text-align: left;
+      }
+    }
+    > ul {
+      > li {
+        width: 100%;
+        float: left;
+        padding-right: 3px;
+        @media (min-width: $screen-sm-min) {
+          // (S) 768
+          width: 100%;
+          float: none;
+        }
+      }
+    }
+  }
+}

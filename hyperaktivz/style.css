@@ -1,0 +1,33 @@
+/*
+Theme Name: HyperActivz
+Author: HyperActivz Team
+Description: Our 2016 default theme
+Version: 1.0
+*/
+
+@import url("styles/main.css");
+
+.wrap_main_post_block>.main_content{
+    margin-bottom: 30px;
+}
+
+.tbcb_item_single_center_post{
+    margin-top: 10px;
+}
+#three_blocks .three_blocks_item_center .tbcb_item_single_center_post .wrap_meta_text{
+    padding: 0 10px 10px;
+}
+#main_content .main article {
+    background-color: #fff;
+    padding: 40px;
+}
+#main_content .main{
+    width: calc(100% - 345px);
+    float: left;
+    padding-right: 15px;
+}
+@media (max-width: 768px) and (min-width:200px){
+    #main_content .main{
+        width: 100%;
+    }
+}

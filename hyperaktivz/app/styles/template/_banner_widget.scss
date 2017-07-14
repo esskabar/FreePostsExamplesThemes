@@ -1,0 +1,36 @@
+#banner_widget {
+  .wrap_ads_center{
+
+    @media (min-width: $screen-sm-min) {
+      // (S) 768
+      padding: 25px 0px 0px;
+    }
+    .banner-widget-center{
+      overflow: hidden;
+      width: 100%;
+      height: 90px;
+
+      .img-responsive{
+        min-width: 780px;
+        min-height: 90px;
+      }
+
+    }
+  }
+  .social_links_block{
+    @media (min-width: $screen-sm-min) {
+      display: flex;
+      padding: 25px 0px 0px;
+      overflow: hidden;
+    }
+    .img-responsive{
+      min-width: 120px;
+      min-height: 90px;
+      padding:0 5px;
+      &:last-child{
+        padding-right: 0px;
+      }
+    }
+
+  }
+}

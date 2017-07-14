@@ -1,0 +1,80 @@
+$icon-font-path: '../fonts/';
+
+// Before Bootstrap
+@import "assets/fonts";
+@import "assets/colors";
+@import "assets/text";
+@import "assets/sprite";
+@import "variables/custom_variables";
+@import "variables/typography";
+@import "variables/navbar";
+@import "variables/variables";
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+// Bootstrap modifications
+
+
+// Custom CSS
+@import "template/top_header";
+@import "template/main_content";
+@import "template/article";
+@import "template/category";
+@import "template/aside";
+@import "template/main_footer";
+@import "template/top_nav";
+@import "template/second_top_nav";
+@import "template/banner";
+@import "template/banner_widget";
+@import "template/list_post_block";
+@import "template/three_post_bloks";
+@import "template/three_blocks";
+@import "template/wide_block";
+@import "template/main_block";
+@import "template/footer_widget";
+@import "template/footer_about";
+@import "template/footer_menu";
+@import "template/footer_follow";
+@import "template/social_button";
+
+
+
+.icon {
+  display: inline-block;
+}
+
+.wrap_main_post_block{
+  display: table;
+  .main_content{
+    display: table-footer-group;
+  }
+  .aside{
+    display: table-header-group;
+  }
+  @media (max-width: $screen-xs-max) {
+
+  }
+}
+
+
+@media (max-width: $screen-xs-max) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+//.container {
+//  border: 1px solid red;
+//}
+//.row {
+//  border: 1px solid green;
+//}
+//
+//[class^="col-"] {
+//  border: 1px solid black;
+//}
+
+

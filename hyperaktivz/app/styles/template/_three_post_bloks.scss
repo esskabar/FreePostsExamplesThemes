@@ -1,0 +1,146 @@
+#three_post_blocks {
+  padding-top: 0;
+  @media (min-width: $screen-sm-min) {
+    // (S) 768
+    padding-top: 20px;
+  }
+
+  > .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .tpb_items_wrap {
+    @include clearfix();
+    margin-left: -1px;
+    margin-right: -1px;
+  }
+
+  .tpb_item {
+    float: none;
+    width: 100%;
+    padding: 0 1px;
+    margin: 7px 0;
+    @media (min-width: $screen-sm-min) {
+      // (S) 768
+      float: left;
+      width: 33.333333333%;
+      padding: 0 1px;
+      margin: 0;
+    }
+  }
+
+  .tpb_item_inner {
+    position: relative;
+    display: block;
+    background-color: antiquewhite;
+    height: $height_top_tree_block_mobile;
+    border-radius: 2px;
+    overflow: hidden;
+    perspective: 1px;
+    &:hover .tpb_img {
+      transition: all 1s ease-in-out;
+      transform: scale(1.1, 1.1);
+      &:before {
+        opacity: 0.2;
+        transition: all 1s ease-in-out;
+      }
+    }
+    @media (min-width: $screen-sm-min) {
+      // (S) 768
+      height: $height_top_tree_block_desktop;
+    }
+  }
+
+  .tpb_img {
+    position: relative;
+    background: center center no-repeat;
+    background-size: cover;
+    height: $height_top_tree_block_mobile;
+    z-index: 0;
+    transition: all 1s ease-in-out;
+    @media (min-width: $screen-sm-min) {
+      // (S) 768
+      height: $height_top_tree_block_desktop;
+    }
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-color: rgb(34, 19, 9);
+      opacity: 0.6;
+      z-index: 1;
+      transition: all 1s ease-in-out;
+    }
+
+  }
+
+  .tpb_text {
+    position: absolute;
+    width: 90%;
+    left: 0;
+    right: 0;
+    //top: 101px;
+    top: 20%;
+    margin: 0 auto;
+    text-align: center;
+    @media (min-width: $screen-sm-min) {
+      // (S) 768
+      top: 15%;
+      width: 98%;
+    }
+  }
+
+  .tpb_btn {
+    display: inline-block;
+    padding: 6px 10px;
+    background-color: #f1592a;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    text-transform: uppercase;
+    color: #fefefe;
+  }
+
+  .tpb_head {
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.14;
+    text-align: center;
+    color: #fefefe;
+    @media (min-width: $screen-sm-min) {
+      // (S) 768
+      font-size: 24px;
+      line-height: 1.17;
+    }
+  }
+
+  .tpb_meta_item {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    color: #fcb040;
+    @media (min-width: $screen-sm-min) {
+      // (S) 768
+      font-size: 12px;
+    }
+  }
+
+  .tpb_author_name {
+
+  }
+
+  .tpb_date_item {
+
+  }
+}

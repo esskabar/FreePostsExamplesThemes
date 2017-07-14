@@ -1,0 +1,60 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-fb {
+  background-image: url(../images/sprite.png);
+  background-position: -140px -94px;
+  width: 27px;
+  height: 28px;
+}
+.icon-fbs {
+  background-image: url(../images/sprite.png);
+  background-position: 0px 0px;
+  width: 135px;
+  height: 89px;
+}
+.icon-pt {
+  background-image: url(../images/sprite.png);
+  background-position: -172px -94px;
+  width: 27px;
+  height: 28px;
+}
+.icon-search {
+  background-image: url(../images/sprite.png);
+  background-position: -236px -94px;
+  width: 16px;
+  height: 17px;
+}
+.icon-tw {
+  background-image: url(../images/sprite.png);
+  background-position: -204px -94px;
+  width: 27px;
+  height: 28px;
+}
+.icon-tws {
+  background-image: url(../images/sprite.png);
+  background-position: -140px 0px;
+  width: 135px;
+  height: 89px;
+}
+.icon-yts {
+  background-image: url(../images/sprite.png);
+  background-position: 0px -94px;
+  width: 135px;
+  height: 89px;
+}

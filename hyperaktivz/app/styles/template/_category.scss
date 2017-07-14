@@ -1,0 +1,35 @@
+
+.category .main, .author .main, .search .main, .page .main {
+  > h2 {
+    position: relative;
+    margin: 0 15px 30px;
+    font-size: 24px;
+    font-family: Poppins;
+    color: #051624;
+    line-height: 1.222;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  margin-bottom: 25px;
+}
+
+.category .main, .author .main, .search .main, .page .main {
+  .main_block_item_wrap {
+    margin: -10px -2px;
+    @media (min-width: $screen-sm-min) {
+      margin: -10px -2px;
+    }
+
+  }
+  .main_content {
+    float: left;
+    //      width: calc(100% - 300px);
+    padding-right: 15px;
+    @media (min-width: $screen-sm-min) {
+      width: calc(100% - 300px);
+    }
+  }
+  h2.title_block{
+    text-transform: capitalize;
+  }
+}

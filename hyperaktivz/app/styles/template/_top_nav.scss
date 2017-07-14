@@ -1,0 +1,124 @@
+$min-height-mob: 88px;
+$min-height-main: $navbar-height;
+#top_nav {
+  @extend .main_nav;
+  text-transform: capitalize;
+  border-bottom: 1px solid #e2e2e2;
+  box-shadow: 0px 2px 4px 0px rgba(121, 121, 121, 0.35);
+
+  &.navbar {
+    min-height: $min-height-mob;
+
+    @media (max-width: $screen-xs-max ) {
+      //border-bottom: 2px solid #e2e2e2;
+    }
+
+    @media (min-width: $screen-sm-min ) {
+      min-height: $min-height-main;
+
+    }
+
+  }
+
+  .navbar-header {
+    text-align: center;
+    min-height: $min-height-mob;
+    padding-left: 30px;
+
+    @media (min-width: $screen-sm-min ) {
+      min-height: $min-height-main;
+    }
+  }
+
+  .navbar-brand {
+    display: inline-block;
+    float: none;
+    max-width: 240px;
+    padding: 0 15px;
+    height: $min-height-mob;
+    line-height: $min-height-mob;
+    @media (min-width: $screen-sm-min ) {
+      height: $min-height-main;
+      line-height: $min-height-main;
+    }
+    img {
+      display: inline-block;
+    }
+  }
+
+  .navbar-toggle {
+    position: absolute;
+    top: 22px;
+    left: 18px;
+    margin: 0;
+    background-color: transparent;
+    vertical-align: middle;
+    border-radius: 0;
+    padding-left: 0;
+
+    border-color: transparent;
+    &:hover,
+    &:focus {
+      background-color: transparent;
+    }
+    .icon-bar {
+      background-color: $reddish-pink;
+    }
+    .icon-bar {
+      display: block;
+      width: 30px;
+      height: 4px;
+      border-radius: 4px;
+    }
+    .icon-bar + .icon-bar {
+      margin-top: 5px;
+    }
+  }
+
+  #navbar {
+    margin-right: -15px;
+  }
+
+  .navbar-nav {
+    li {
+      position: relative;
+      a{
+        @extend .main_nav;
+      }
+      &.active:after, &:hover:after, &:focus:after {
+        content: '';
+        display: block;
+        width: 95%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        height: 2px;
+        background-color: #c0c0c0;
+
+        @media (min-width: $screen-sm-min) {
+          width: 40%;
+          bottom: $navbar-padding-vertical - 2;
+        }
+      }
+
+      &:last-child {
+        &.active:after, &:hover:after, &:focus:after {
+            @media (min-width: $screen-sm-min) {
+              left: 15px;
+            }
+        }
+
+        > a {
+
+          @media (min-width: $screen-sm-min) {
+            padding-right: 0;
+          }
+        }
+
+      }
+
+    }
+  }
+}
